@@ -1,0 +1,96 @@
+<title>ContactCss</title>
+
+body { 
+color: #000000;  
+background-color: #B8D1EB;  
+font-family:"Times New Roman", serif;  
+}
+
+#outerwrapper { width: 70%;  
+margin: 0 auto 0 auto;  
+}
+
+footer { font-size: 0.75em;  
+text-align: center;  
+}
+
+<style>
+*{
+margin:0;
+padding:0;
+}
+.header{
+height:60px;
+background:#262626;
+padding:0 50px;
+}
+.logo{
+width:30%;
+float:left;
+color:#4cb5e6; 
+font-weight:bold;
+text-transform:uppercase;
+line-height:60px;
+font-size:35px;
+font-family:"Times New Roman";
+}
+nav{
+width:68%;
+float:right;
+}
+nav ul{
+list-style:none;
+float:right;
+}
+nav ul li{
+display:inline-block;
+display:inline-table;
+}
+nav ul a{
+text-decoration:none;
+color:#fff;	
+font-family:"Times New Roman";
+font-weight:bold;
+margin:0 10px;
+line-height:60px;
+text-transform:uppercase;
+}
+.banner{
+height: 100%;
+}
+.content
+padding: 5%;
+}
+.content p{
+	font-size:18px;
+	line-height:1.7;
+	font-family:"Times New Roman";
+	margin-bottom:25px;	
+}
+footer{
+	backgroud:#000;
+	color:#fff;
+	padding:15px 50px;
+	text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">Logo</div>
+
+<navlist>
+
+form {
+	max-width:550px;
+	width: 90%;
+	backgroud: white;
+	margin: 17vh auto 0 auto;
+	padding: 40px;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
